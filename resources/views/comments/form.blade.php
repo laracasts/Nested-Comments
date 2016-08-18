@@ -5,7 +5,7 @@
         <input name="parent_id" type="hidden" value="{{ $parentId }}"></input>
     @endif
 
-    <textarea name="body"></textarea><br>
+    <textarea name="body" required></textarea><br>
 
     <button type="submit">Reply</button>
 </form>
